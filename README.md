@@ -1,15 +1,13 @@
 # [Image Splitter Tool](https://github.com/vuvuvu/image-splitter-tool)
 
 [Gemini](https://g.co/gemini/share/735bed2a3d02) hosts this app and is free to use with a google account.
-![image-splitter-tool screenshot](screenshot.jpeg)
+![image-splitter-tool screenshot](screenshotS.jpeg)
 
 This is a browser-based utility built with React and Tailwind CSS that allows users to upload an image, define precise horizontal and vertical cut lines, and extract the resulting segments. It is especially useful for splitting AI-generated images (e.g., sticker sheets, character sets, or asset packs) that may not align perfectly to a grid.
 
 The tool also integrates with the [Google Gemini AI](https://g.co/gemini/share/735bed2a3d02) to optionally generate descriptive titles and summaries for both the original image and each individual segment, making it easy to organize and catalog your assets.
 
-![Ai-descriptions image](ai-descriptions.jpeg) 
-https://github.com/vuvuvu/image-splitter-tool/ai-descriptions.jpeg
-
+![Ai-descriptions image](ai-descriptionsS.jpeg) 
 
 ## What it Does
 
@@ -70,37 +68,4 @@ To run this project on your local machine, you will need Node.js and npm (or yar
     git clone https://github.com/vuvuvu/image-splitter-tool.git
     cd image-splitter-tool
     ```
-
-2.  **Install dependencies:**
-    ```sh
-    npm install
-    # or
-    yarn install
-    ```
-
-3.  **Get a Google Gemini API Key:**
-    -   The AI features require a Google Gemini API key. You can get one from the [Google AI Studio](https://aistudio.google.com/app/apikey). Or click the google 
-    -   Open the `image-splitter-tool.txt` (or the corresponding `.js` or `.jsx` file in your project).
-    -   Find the `apiKey` constant inside the `handleDescribeOriginalImage` and `handleAnalyzeSegment` functions.
-    -   Replace the empty string (`""`) with your actual Gemini API key.
-
-    ```javascript
-    // Example in handleDescribeOriginalImage function
-    const apiKey = "YOUR_API_KEY_HERE"; // <-- PASTE YOUR KEY HERE
-    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
-    ```
-
-4.  **Run the application (if using Create React App):**
-    ```sh
-    npm start
-    # or
-    yarn start
-    ```
-    The application will open in your default browser, typically at `http://localhost:3000`.
-
-## Technology Stack
-
--   **Frontend:** [React](https://reactjs.org/)
--   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
--   **AI Integration:** [Google Gemini API](https://ai.google.dev/)
--   **File Downloads:** [FileSaver.js](https://github.com/eligrey/FileSaver.js/)
+## Made by [vUvu](github.com/vuvuvu) 2025
