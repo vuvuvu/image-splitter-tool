@@ -1,13 +1,13 @@
 # [Image Splitter Tool](https://github.com/vuvuvu/image-splitter-tool)
 
 [Gemini](https://g.co/gemini/share/735bed2a3d02) hosts this app and is free to use with a google account.
-![image-splitter-tool screenshot](screenshotS.jpeg)
+![image-splitter-tool screenshot](screenshot.jpeg)
 
 This is a browser-based utility built with React and Tailwind CSS that allows users to upload an image, define precise horizontal and vertical cut lines, and extract the resulting segments. It is especially useful for splitting AI-generated images (e.g., sticker sheets, character sets, or asset packs) that may not align perfectly to a grid.
 
 The tool also integrates with the [Google Gemini AI](https://g.co/gemini/share/735bed2a3d02) to optionally generate descriptive titles and summaries for both the original image and each individual segment, making it easy to organize and catalog your assets.
 
-![Ai-descriptions image](ai-descriptionsS.jpeg) 
+![Ai-descriptions image](ai-descriptions.jpeg) 
 
 ## What it Does
 
